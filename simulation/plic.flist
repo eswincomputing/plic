@@ -1,0 +1,15 @@
+# SPDX-License-Identifier: MPL-2.0
+#
+# Copyright 2024 Beijing ESWIN Computing Technology Co., Ltd.  
+#
+../source/rtl/config.h
+../source/rtl/clkgate.sv
+../source/rtl/sync_cell.sv
+../source/rtl/apb2sram.sv
+../source/rtl/plic_int_detect.sv
+../source/rtl/plic_irq_arb.sv
+../source/rtl/plic_irq_arb_tree.sv
+../source/rtl/plic_base_reg_file.sv
+../source/rtl/plic_hart_reg_file.sv
+../source/rtl/plic_reg_file.sv
+../source/rtl/plic_top.sv

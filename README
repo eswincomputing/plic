@@ -1,0 +1,28 @@
+# SPDX-License-Identifier: MPL-2.0
+#
+# Copyright 2024 Beijing ESWIN Computing Technology Co., Ltd.  
+#
+
+.
+File structure: 
+├── README                          
+├── simulation-------------------------------the folder for compile & simulation         
+│   ├── makefile-----------------------------makefile
+│   └── plic.flist---------------------------RTL file list
+└── source-----------------------------------source code folder include rtl & tb
+    ├── rtl----------------------------------RTL folder
+    │   ├── apb2sram.sv----------------------
+    │   ├── clkgate.sv-----------------------
+    │   ├── config.h-------------------------include config file
+    │   ├── plic_base_reg_file.sv------------
+    │   ├── plic_hart_reg_file.sv------------
+    │   ├── plic_int_detect.sv---------------
+    │   ├── plic_irq_arb.sv------------------
+    │   ├── plic_irq_arb_tree.sv-------------
+    │   ├── plic_reg_file.sv-----------------
+    │   ├── plic_top.sv----------------------
+    │   └── sync_cell.sv---------------------
+    └── tb-----------------------------------TB folder
+        ├── plic_arb_tb.sv-------------------
+        └── plic_tb.sv-----------------------
+---------------------------------------------------------
